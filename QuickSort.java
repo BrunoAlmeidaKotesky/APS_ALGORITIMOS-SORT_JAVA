@@ -28,5 +28,3 @@ public class QuickSort {
         return i + 1;
     }    
 }
-
-//Quick sort with number of swaps and comparasssions
