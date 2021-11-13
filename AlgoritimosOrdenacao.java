@@ -9,7 +9,6 @@ public class AlgoritimosOrdenacao {
         int[] primeiroArray = readFile("1000_numbers.txt");
         int[] segundoArray = readFile("5000_numbers.txt");
         int[] terceiroArray = readFile("10000_numbers.txt");
-        int[] quartoArray = readFile("100000_numbers.txt");
         System.out.println("\nPrimeira Execução: \n");
         benchmarkInsertionSort(primeiroArray);
         benchmarkSelectionSort(primeiroArray);
